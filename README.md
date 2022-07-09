@@ -1,4 +1,4 @@
-🍦 Vanilla Javascript 🍦 Projects' Collective 
+<h1> 🍦 Vanilla Javascript 🍦 Projects' Collective </h1>
 
 <p>This repository was created as a way to document <strong> my own journey </strong> as a <strong> front-end web developer </strong></p>
 
