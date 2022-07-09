@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+.container {
+  background-color: #dda448;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: #c5cbd3;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+blockquote {
+  font-size: 1.6rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-style: italic;
+  font-size: 3.5rem;
+}
+
+figcaption {
+  font-size: 2.5rem;
+  margin-top: 1.8rem;
+  font-weight: 300;
+  align-self: flex-end;
+}
+
+.btn {
+  background-color: #bb342f;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
