@@ -1,0 +1,26 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.color {
+  height: 80vh;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.btn {
+  padding: 2rem 4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  border: none;
+  transition: 0.5s background-color;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
